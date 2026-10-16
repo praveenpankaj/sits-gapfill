@@ -1,3 +1,4 @@
+```markdown
 # Robust Satellite Image Time-Series Spectral Index Extraction & Gap Imputation using Prophet, Timestral, Linear Interpolation, Cubic Interpolation and Bi-LSTM
 
 This repository contains an end-to-end cloud-native pipeline built with **Google Earth Engine (GEE)**, **PyTorch**, **Meta Prophet**, and **Mistral AI's Timestral**, **Bi-LSTM** to build a high-resolution consensus cropland mask, extract robust spatial-temporal spectral index profiles, and perform advanced temporal gap-filling on agricultural time-series data.
@@ -74,4 +75,4 @@ Evaluation on simulating a cloud-gap at peak NDVI conditions demonstrates the pe
 Method	RMSE	MAE	Characteristics
 Linear Interpolation	0.1025	0.1025	Simple, but fails at peak curvature shifts.
 Cubic Spline	0.1201	0.1201	Susceptible to polynomial overshoot over small datasets.
-Bidirectional LSTM	0.0375	0.0375	Learns temporal patterns using bilateral context windows.
+Bidirectional LSTM	0.0375	0.0375	Learns temporal patterns using bilateral context windows.```
